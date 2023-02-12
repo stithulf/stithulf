@@ -137,20 +137,39 @@
 <!-- Include Font Awesome Stylesheet in Header -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- // -->
-<div class="container">
+<style>
+    footer {
+        width: 100%;
+    }
+    html, body {
+    height: 100%;
+    }
+    .container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .main-content {
+    flex: 1;
+    }
+    footer {
+    width: 100%;
+    }
+</style>
 <!-- Footer-->
-<footer class="bg-black text-center py-5">
-    <div class="container px-5">
-        <div class="text-white-50 small">
-            <div class="mb-2">&copy; Stithulf 2022. All Rights Reserved.</div>
-            <a href="privacy.html" target="_blank">Privacy</a>
-            <span class="mx-1">&middot;</span>
-            <a href="terms.html" target="_blank">Terms</a>
-            <span class="mx-1">&middot;</span>
-            <a href="faq.html" target="_blank">FAQ</a>
+    <footer class="bg-black text-center">
+        <div class="container">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; Stithulf 2022. All Rights Reserved.</div>
+                <a href="privacy.html" target="_blank">Privacy</a>
+                <span class="mx-1">&middot;</span>
+                <a href="terms.html" target="_blank">Terms</a>
+                <span class="mx-1">&middot;</span>
+                <a href="faq.html" target="_blank">FAQ</a>
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 <!-- Feedback Modal-->
 <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
