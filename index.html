@@ -318,27 +318,6 @@
                             <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
                         </form>
-                        <script>
-                            $(document).ready(function() {
-                                $('#myForm').submit(function(e) {
-                                    e.preventDefault();
-                                    $.ajax({
-                                        url: 'https://docs.google.com/forms/d/e/1FAIpQLSfGRrI5EPLlBNSSqDP5M6KEICZvQtjX6ooa8m5F2zr1MSdhJg/formResponse',
-                                        data: $('#myForm').serialize(),
-                                        type: 'POST',
-                                        dataType: 'xml',
-                                        statusCode: {
-                                            0: function() {
-                                                alert('Your feedback was valuable to us. Thank you!');
-                                                },
-                                            200: function() {
-                                                alert('There was an Error. Please Try Again Later.');
-                                                }
-                                            }
-                                        });
-                                    });
-                                });
-                            </script>
                     </div>
                 </div>
             </div>
