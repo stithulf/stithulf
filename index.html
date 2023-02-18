@@ -303,7 +303,7 @@
                             <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
+                                    <div class="fw-bolder">Your feedback was valuable to us. Thank you!</div>
                                     
                                     <br />
                                     
@@ -313,33 +313,33 @@
                             <!---->
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">There was an Error. Please Try Again Later.</div></div>
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                            <script>                    
-                            $(document).ready(function() {
-                                $('#myForm').submit(function(e) {
-                                e.preventDefault();
-                                $.ajax({
-                                    url: 'https://docs.google.com/forms/d/e/1FAIpQLSfGRrI5EPLlBNSSqDP5M6KEICZvQtjX6ooa8m5F2zr1MSdhJg/formResponse',
-                                    data: $('#myForm').serialize(),
-                                    type: 'POST',
-                                    dataType: 'xml',
-                                    statusCode: {
-                                      0: function() {
-                                        // Success message
-                                        alert('Thank you for your message!');
-                                    },
-                                    200: function() {
-                                        // Error message
-                                        alert('There was an error. Please try again.');
-                                    }
-                                    }
-                                });
-                                });
-                            });
-                            </script>
+                            <script>
+                                $(document).ready(function() {
+                                    $('#myForm').submit(function(e) {
+                                        e.preventDefault();
+                                        $.ajax({
+                                            url: 'https://docs.google.com/forms/d/e/1FAIpQLSfGRrI5EPLlBNSSqDP5M6KEICZvQtjX6ooa8m5F2zr1MSdhJg/formResponse',
+                                            data: $('#myForm').serialize(),
+                                            type: 'POST',
+                                            dataType: 'xml',
+                                            statusCode: {
+                                                0: function() {
+                                                    // Success message
+                                                    alert('Your feedback was valuable to us. Thank you!');
+                                                    },
+                                                200: function() {
+                                                    // Error message
+                                                    alert('There was an Error. Please Try Again Later.');
+                                                    }
+                                                }
+                                            });
+                                        });
+                                    });
+                                </script>
                         </form>
                     </div>
                 </div>
