@@ -158,8 +158,14 @@
     }
 </style>
 <!-- Footer-->
-<include src="header-footer/footer.html"></include>
-
+<script>
+    var footer = document.createElement("footer");
+    footer.onload = function() {
+      document.getElementById("footer").appendChild(footer);
+    };
+    footer.src = "header-footer/footer.html";
+    document.body.appendChild(footer);
+</script>
     
 </body>
 </html>
