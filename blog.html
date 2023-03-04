@@ -161,12 +161,17 @@
     <div id="footer">
         </div>
 <script>
+    console.log("Before creating footer element");
     var footer = document.createElement("footer");
+    console.log("After creating footer element");
     footer.onload = function() {
-      document.getElementById("footer").appendChild(footer);
-    };
+        console.log("Footer loaded successfully");
+        document.getElementById("footer").appendChild(footer);
+        };
     footer.src = "header-footer/footer.html";
+    console.log("Before appending footer to body");
     document.body.appendChild(footer);
+    console.log("After appending footer to body");
 </script>
     
 </body>
