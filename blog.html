@@ -158,7 +158,14 @@
     }
 </style>
 <!-- Footer-->
-<iframe src="header-footer/footer.html"></iframe>
+<iframe src="header-footer/footer.html" id="footer-iframe" frameborder="0" scrolling="no"></iframe>
+<script>
+  var iframe = document.getElementById('footer-iframe');
+  iframe.onload = function() {
+    var height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    iframe.style.height = height;
+  };
+</script>
 
 </body>
 </html>
