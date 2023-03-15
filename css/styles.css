@@ -627,20 +627,6 @@ progress {
   color: #6c757d;
 }
 
-.timeline{
-  position: relative;
-  max-width: 1200px;
-  margin: 100px auto;
-}
-
-.text-box{
-  padding: 20px 30px;
-  background: #fff;
-  position: relative;
-  border-radius: 6px;
-  font-size: 15px;
-}
-
 .container,
 .container-fluid,
 .container-xxl,
