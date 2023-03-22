@@ -2,8 +2,6 @@
 layout: default
 title: Stithulf: Our Whitepapers
 ---
-
-
 <html>
     <head>
     <meta charset="utf-8" />
