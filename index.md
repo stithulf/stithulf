@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Stithulf - Empowering Web3 Innovations Together
+permalink: /stithulf.com/
 ---
 
 <html>
