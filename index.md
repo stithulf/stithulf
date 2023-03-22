@@ -3,7 +3,7 @@ layout: default
 title: Stithulf - Empowering Web3 Innovations Together
 ---
 
-<html lang="en">
+<html>
     <head>
 	            <style type="text/css">
 		#popup {
@@ -125,7 +125,6 @@ title: Stithulf - Empowering Web3 Innovations Together
                     </div>
                 </div>
             </div>
-        </header>
 
         <aside class="text-center bg-gradient-primary-to-secondary">
             <div class="container px-5">
