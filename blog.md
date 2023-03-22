@@ -158,6 +158,6 @@ title: Blogs
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Footer-->
-<iframe src="footer" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+<iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
 </body>
 </html>
