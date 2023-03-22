@@ -20,7 +20,7 @@ title: Blogs
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    </head>
+</head>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="https://stithulf.com/">Stithulf</a>
@@ -45,7 +45,6 @@ title: Blogs
             </div>
         </div>
     </nav>
-</head>
 <style>
   .container {
     display: flex;
@@ -143,21 +142,10 @@ title: Blogs
         <p>The post will be launched soon</p>
         <a href="#" class="read-more">Coming Soon</a>
       </article>
-      <article class="blog-post">
-    </div>
-  </div>
-</body>
+    
 
-<!-- Mashead header-->
- <header class="masthead">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <class="col-lg-6">
-            </class=></class></div></div></header>
 <!-- Include Font Awesome Stylesheet in Header -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Footer-->
 <iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
-</body>
-</html>
