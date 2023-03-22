@@ -1,3 +1,8 @@
+---
+layout: default
+title: Blogs
+---
+
 <html>
 <head>
     <meta charset="utf-8" />
@@ -25,9 +30,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" a href="build.html" target="_blank">Build</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" a href="study.html" target="_blank">Study</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="blog.html" target="_blank">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" a href="build" target="_blank">Build</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" a href="study" target="_blank">Study</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="blog" target="_blank">Blogs</a></li>
                 </ul>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                     <span class="d-flex align-items-center">
@@ -111,7 +116,7 @@
         <h4>Crypto Lending Platforms: The Market Analysis</h4>
         <p class="post-details">Vedant Dighe | 05/03/2023</p>
         <p>Here we will be covering the market analysis of our topic (for project: SULFERC)</p>
-        <a href="https://stithulf.com/blog/market-analysis-of-crypto-lending-platforms-stithulferc.html" class="read-more">Read More</a>
+        <a href="https://stithulf.com/blog/market-analysis-of-crypto-lending-platforms-stithulferc" class="read-more">Read More</a>
       </article>
       <article class="blog-post">
         <h4>Important Features of SULFERC</h4>
@@ -153,6 +158,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Footer-->
-<iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+<iframe src="footer" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
 </body>
 </html>
