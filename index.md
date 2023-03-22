@@ -213,9 +213,8 @@ title: Stithulf - Empowering Web3 Innovations Together
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p align="center" class="h1">Join The Official Community For Updates</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-        <script type="module" 
-		="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script module src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <style>
             .social-icon {
                 color: #aaaaaa;
