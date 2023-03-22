@@ -52,6 +52,7 @@ title: Stithulf - Empowering Web3 Innovations Together
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+	<body>
     <body id="page-top">
         <!-- Navigation-->
         	<div id="popup">
@@ -251,11 +252,11 @@ title: Stithulf - Empowering Web3 Innovations Together
                     </a>
                 </center>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                
 
-<!-- Social Footer, Single Coloured -->
 <!-- Include Font Awesome Stylesheet in Header -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Footer-->
 <iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+</body>
+</html>
