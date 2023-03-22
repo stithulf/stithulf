@@ -20,6 +20,7 @@ title: Build With Us
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
@@ -89,15 +90,6 @@ title: Build With Us
                             </center>
                             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                             
-<!-- Mashead header-->
-<header class="masthead">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <class="col-lg-6">
-            </class=></class></div></div></header>
-<!-- Include Font Awesome Stylesheet in Header -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
 </style>
 <!-- Footer-->
 <iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
