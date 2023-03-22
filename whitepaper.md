@@ -7,7 +7,7 @@ title: Stithulf: Our Whitepapers
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
-    <meta name="author" content="" />Click Here to check our Blockchain whitepaper.
+    <meta name="author" content="" />
     <title>Stithulf: Our Whitepapers</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -67,7 +67,7 @@ title: Stithulf: Our Whitepapers
     }
 </style>
 <!-- Footer-->
-<iframe src="footer" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+<iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
 
 </body>
 </html>
