@@ -105,7 +105,6 @@ title: Blogs
         <a href="#" class="read-more">Coming Soon</a>
       </article>
       <article class="blog-post">
-    </div>
     <div class="middle-section">
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
