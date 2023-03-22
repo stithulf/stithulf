@@ -246,12 +246,12 @@ title: Stithulf - Empowering Web3 Innovations Together
                 <a class="social-icon"  href="https://stithulferc.medium.com/" target="_blank">
                     <ion-icon name="logo-medium" style="font-size:60px"></ion-icon>
                     </a>
-                </center>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-
-<!-- Include Font Awesome Stylesheet in Header -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </center>
+                
+</body>
 
 <!-- Footer-->
 <iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
