@@ -1,8 +1,3 @@
----
-layout: default
-title: Blogs
----
-
 <html>
 <head>
     <meta charset="utf-8" />
