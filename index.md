@@ -52,8 +52,6 @@ title: Stithulf - Empowering Web3 Innovations Together
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-	<body>
-    <body id="page-top">
         <!-- Navigation-->
         	<div id="popup">
 			<div id="popup-content">
@@ -106,12 +104,12 @@ title: Stithulf - Empowering Web3 Innovations Together
                 </div>
             </div>
         </nav>
-        <!-- Mashead header-->
+	<body>
         <header class="masthead">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <!-- Mashead text and app badges-->
+
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
                             <h1 class="display-1 lh-1 mb-3">Welcome To Stithulf</h1>
                             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -252,6 +250,7 @@ title: Stithulf - Empowering Web3 Innovations Together
                     </a>
                 </center>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+	</body>
 
 <!-- Include Font Awesome Stylesheet in Header -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
