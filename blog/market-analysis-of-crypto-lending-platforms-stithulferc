@@ -1,5 +1,10 @@
+---
+layout: default
+title: Market Analysis of Crypto Lending Platforms: StithulfERC
+---
+
 <html>
-<head>
+    <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
@@ -25,9 +30,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" a href="https://stithulf.com/build.html" target="_blank">Build</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" a href="https://stithulf.com/study.html" target="_blank">Study</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="https://stithulf.com/blog.html" target="_blank">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" a href="https://stithulf.com/build" target="_blank">Build</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" a href="https://stithulf.com/study" target="_blank">Study</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="https://stithulf.com/blog" target="_blank">Blogs</a></li>
                 </ul>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                     <span class="d-flex align-items-center">
