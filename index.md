@@ -128,7 +128,6 @@ title: Stithulf - Empowering Web3 Innovations Together
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">"Our aim is to revolutionize the way people interact with decentralized finance, and create a more equitable and accessible financial ecosystem.."</div>
-                        <img src="" alt="..." style="height: 3rem" />
                     </div>
                 </div>
             </div>
@@ -214,7 +213,8 @@ title: Stithulf - Empowering Web3 Innovations Together
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p align="center" class="h1">Join The Official Community For Updates</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script type="module" 
+		="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <style>
             .social-icon {
@@ -248,12 +248,10 @@ title: Stithulf - Empowering Web3 Innovations Together
                     </a>
                 </center>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-	</body>
+
 
 <!-- Include Font Awesome Stylesheet in Header -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Footer-->
 <iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
-</body>
-</html>
