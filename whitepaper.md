@@ -1,10 +1,15 @@
+---
+layout: default
+title: Stithulf: Our Whitepapers
+---
+
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />Click Here to check our Blockchain whitepaper.
-    <title>Stithulf Whitepaper</title>
+    <title>Stithulf: Our Whitepapers</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
@@ -25,9 +30,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" a href="build.html" target="_blank">Build</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" a href="study.html" target="_blank">Study</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="blog.html" target="_blank">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" a href="build" target="_blank">Build</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" a href="study" target="_blank">Study</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="blog" target="_blank">Blogs</a></li>
                 </ul>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                     <span class="d-flex align-items-center">
@@ -63,7 +68,7 @@
     }
 </style>
 <!-- Footer-->
-<iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+<iframe src="footer" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
 
 </body>
 </html>
