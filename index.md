@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
     <head>
 	            <style type="text/css">
@@ -116,9 +116,7 @@
                                 <button type="button" class="btn btn-primary btn-lg" style="text-decoration:none; color: white;"><a href="build" target="_blank" style="text-decoration:none; color: white;">Build</a></button>
                                 
                                 <button type="button" class="btn btn-secondary btn-lg" style="margin:15px;" style="text-decoration:none; color: white;"><a href="study" target="_blank" style="text-decoration:none; color: white;">Study</a></button>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="col-lg-6">
                         <!-- Masthead device mockup feature-->
                         <div class="masthead-device-mockup">
@@ -304,6 +302,4 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Footer-->
-<iframe src="footer" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
-</body>
-</html>
+<iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
