@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^blog$ blog.html [L]
+RewriteRule ^build$ build.html [L]
+RewriteRule ^faq$ faq.html [L]
+RewriteRule ^privacy$ privacy.html [L]
+RewriteRule ^roadmap$ roadmap.html [L]
+RewriteRule ^study$ study.html [L]
+RewriteRule ^terms$ terms.html [L]
+RewriteRule ^whitepaper$ whitepaper.html [L]
+RewriteRule ^stithulf$ index.html [L]
