@@ -1,3 +1,8 @@
+---
+layout: default
+title: Stithulf - Empowering Web3 Innovations Together
+---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -86,7 +91,7 @@
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#whitepaper">White Paper</a></li>
-			    <li class="nav-item"><a class="nav-link me-lg-3" href="blog.html">Blogs</a></li>
+			    <li class="nav-item"><a class="nav-link me-lg-3" href="blog">Blogs</a></li>
                     </ul>
 			<button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
     				<span class="d-flex align-items-center">
@@ -113,9 +118,9 @@
                             <p class="lead fw-normal text-muted mb-5">Experience decentralized finance with Stithulf's innovative Web3 platform.</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
                                 
-                                <button type="button" class="btn btn-primary btn-lg" style="text-decoration:none; color: white;"><a href="build.html" target="_blank" style="text-decoration:none; color: white;">Build</a></button>
+                                <button type="button" class="btn btn-primary btn-lg" style="text-decoration:none; color: white;"><a href="build" target="_blank" style="text-decoration:none; color: white;">Build</a></button>
                                 
-                                <button type="button" class="btn btn-secondary btn-lg" style="margin:15px;" style="text-decoration:none; color: white;"><a href="study.html" target="_blank" style="text-decoration:none; color: white;">Study</a></button>
+                                <button type="button" class="btn btn-secondary btn-lg" style="margin:15px;" style="text-decoration:none; color: white;"><a href="study" target="_blank" style="text-decoration:none; color: white;">Study</a></button>
                             </div>
                         </div>
                     </div>
@@ -254,7 +259,7 @@
                             <br />
                             Whitepaper Below.
                             </h2>
-                        <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="whitepaper.html" target="_blank">White Paper</a>
+                        <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="whitepaper" target="_blank">White Paper</a>
                     </div>
                 </div>
             </section>
@@ -304,6 +309,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Footer-->
-<iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+<iframe src="footer" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
 </body>
 </html>
