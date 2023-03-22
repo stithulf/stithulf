@@ -1,8 +1,3 @@
----
-layout: default
-title: Stithulf - Empowering Web3 Innovations Together
----
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
