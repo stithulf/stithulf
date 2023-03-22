@@ -56,13 +56,10 @@ title: Study More About Stithulf
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><center>STITHULF ERC (SULFERC) is an ERC20 token with a total supply of 1,094,795,585 tokens. Of this supply, 94,795,585 tokens will be allocated to contributors and developers of the STITHULF ERC Project, and the remaining 1,000,000,000 tokens will be allocated to STITHULF Lab.</center></p>
 <p><center>During the initial coin offering (ICO), 10% of the total supply (100,000,000 SULFERCs) will be made available for purchase. The ICO will be active for 60 days, during which participants can exchange ETH for SULFERC tokens at a fixed rate.</center></p>
-<p><center>The remaining 90% of the SULFERC tokens will be released in multiple instalments, with each instalment consisting of 50,000,000 tokens. Each instalment will be released 60 days after the previous one, and there will be a total of 18 instalments released over the course of three years.</p></center>
+<p><center>The remaining 90% of the SULFERC tokens will be released in multiple instalments, with each instalment consisting of 50,000,000 tokens. Each instalment will be released 60 days after the previous one, and there will be a total of 18 instalments released over the course of three years.</center>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 
 <!-- Footer-->
-<iframe src="footer" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
-
-</body>
-</html>
+<iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
