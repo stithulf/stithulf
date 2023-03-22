@@ -200,12 +200,7 @@ title: Terms of Use
                 
                     <p style="width:70%" align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></center>
 
-<!-- Mashead header-->
-<header class="masthead">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <class="col-lg-6">
-            </class=></class></div></div></header>
+
 <!-- Include Font Awesome Stylesheet in Header -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- // -->
@@ -215,7 +210,7 @@ title: Terms of Use
     }
 </style>
 <!-- Footer-->
-<iframe src="footer" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+<iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
 
 </body>
 </html>
