@@ -132,7 +132,7 @@ title: Stithulf - Empowering Web3 Innovations Together
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">"Our aim is to revolutionize the way people interact with decentralized finance, and create a more equitable and accessible financial ecosystem.."</div>
-                        <img src="assets/img/tagline.webp" alt="..." style="height: 3rem" />
+                        <img src="" alt="..." style="height: 3rem" />
                     </div>
                 </div>
             </div>
