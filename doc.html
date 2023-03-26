@@ -13,21 +13,28 @@
   </head>
   <body>
     <div class="doc__bg"></div>
-    <nav class="header">
-      <h1 class="logo">Scribbler <span class="logo__thin">Doc</span></h1>
-      <ul class="menu">
-        <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
-        <li class="menu__item"><a href="index.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container px-5">
+        <a class="navbar-brand" href="https://stithulf.com/">Stithulf</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://stithulf.com/blog" target="_blank" rel="noopener noreferrer">Learn</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://stithulf.com/use" target="_blank" rel="noopener noreferrer">Uses</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://stithulf.com/build" target="_blank" rel="noopener noreferrer">Participate</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://stithulf.com/faq" target="_blank" rel="noopener noreferrer">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
+    
     <div class="wrapper">
       <aside class="doc__nav">
         <ul>
-          <li class="js-btn selected">Get Started</li>
-          <li class="js-btn">Configuration</li>
-          <li class="js-btn">Keybindings</li>
-          <li class="js-btn">Issues</li>
+          <li class="js-btn selected">What is Stithulf</li>
+          <li class="js-btn">What is StithulfERC</li>
+          <li class="js-btn">How it Works?</li>
+          <li class="js-btn">Conclusion</li>
         </ul>
       </aside>
       <article class="doc__content">
@@ -93,7 +100,7 @@
       </article>
     </div>
 
-    <footer class="footer">Scribbler is a free HTML template created exclusively for <a href="https://tympanus.net/codrops/" target="_blank" class="link link--light">Codrops</a>.</footer>
+    <iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="scribbler.js"></script>
