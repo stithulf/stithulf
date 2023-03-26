@@ -5,18 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Stithulf: The World of Innovation</title>
+        <title>IRIS</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.css"/>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.js"></script>
     </head>
     <body>
-        <!-- Navigation-->
-
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div class="container px-5">
                 <a class="navbar-brand" href="https://stithulf.com/">Stithulf</a>
@@ -32,6 +31,34 @@
             </div>
         </nav>
         <!-- Header-->
+        
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>$50,000</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>$60,000</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>40</td>
+                    <td>$80,000</td>
+                </tr>
+            </tbody>
+        </table>
+
 
         <!-- Footer-->
         <iframe src="footer.html" id="footer-iframe" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
