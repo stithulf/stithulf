@@ -1,37 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-         <style type="text/css">
-		#popup {
-			display: none;
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color: rgba(0, 0, 0, 0.5);
-			z-index: 999;
-		}
-		
-
-		#popup-content {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			background-color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-
-		#popup-close {
-  			position: absolute;
-  			bottom: 10px;
-  			left: 50%;
-  			transform: translateX(-50%);
-		}
-		
-	    </style>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -45,32 +14,6 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Navigation-->
-        	<div id="popup">
-			<div id="popup-content">
-				<p>'Stithulf ERC' Project is Live on <a href="https://www.mintme.com/token/Stithulf-ERC/MINTME/trade" target="_blank" rel="noopener noreferrer">MintMe Exchange</a>. Feel free to support the project</p>
-				<p>&nbsp;&nbsp;&nbsp;</p>
-				<button id="popup-close">Close</button>
-				</div>
-			</div>
-
-	<script type="text/javascript">
-		function showPopup() {
-			var popup = document.querySelector("#popup");
-			var closeButton = document.querySelector("#popup-close");
-			popup.style.display = "block";
-			closeButton.addEventListener("click", hidePopup);
-		}
-
-		function hidePopup() {
-			var popup = document.querySelector("#popup");
-			var closeButton = document.querySelector("#popup-close");
-			popup.style.display = "none";
-			closeButton.removeEventListener("click", hidePopup);
-		}
-
-		window.addEventListener("load", showPopup);
-	</script>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div class="container px-5">
                 <a class="navbar-brand" href="https://stithulf.com/">Stithulf</a>
